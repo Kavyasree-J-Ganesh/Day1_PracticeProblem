@@ -11,12 +11,18 @@ public class Quadratic {
         double b = scan.nextDouble();
         System.out.println( " Enter the value of c ");
         double c = scan.nextDouble();
-        double delta = Math.sqrt(b*b - 4*a*c );
-        double result1 = (-b + delta) / (2*a);
-        double result2 = (-b - delta) / (2*a);
+        double delta = b*b - 4*a*c;
+        double sqrt = Math.sqrt(delta);
+        if(sqrt>=0.0){
+            double result1 = (-b + delta) / (2*a);
+            double result2 = (-b - delta) / (2*a);
 
-        System.out.println(" The possible values of x are ");
-        System.out.println(result1);
-        System.out.println(result2);
+            System.out.println(" The possible values of x are ");
+            System.out.println(result1);
+            System.out.println(result2);
+        } else {
+            System.out.println("Squre root's are not real");
+        }
+
     }
 }
