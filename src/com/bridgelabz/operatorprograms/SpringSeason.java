@@ -2,7 +2,8 @@ package com.bridgelabz.operatorprograms;
 
 import java.util.Scanner;
 
-public class SpringSeason {
+public class
+SpringSeason {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println(" Enter month ");

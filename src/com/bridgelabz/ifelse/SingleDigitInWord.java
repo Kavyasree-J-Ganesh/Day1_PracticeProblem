@@ -1,6 +1,6 @@
 package com.bridgelabz.ifelse;
 
-public class SingleDigitInWord {
+public class   SingleDigitInWord {
     public static void main(String[] args) {
 
         int x = Integer.valueOf(args[0]);
